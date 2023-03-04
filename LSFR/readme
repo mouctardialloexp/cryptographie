@@ -1,0 +1,5 @@
+Un '''registre à décalage à rétroaction linéaire''', ou  '''LFSR''' (sigle de l'anglais ''{{lang|en|linear feedback shift register}}''), est un dispositif électronique ou logiciel qui produit une suite de [[bit]]s qui peut être vue comme une [[suite récurrente linéaire]] sur le [[corps fini]] '''F<sub>2</sub>''' à 2 éléments (0 et 1).  La notion a été généralisée à n'importe quel [[corps fini]].
+
+Réalisé électroniquement, dans le cas particulier d'une suite de 0 et de 1, c'est un [[registre à décalage]] avec rétroaction linéaire, ce qui signifie que le bit entrant est le résultat d'un [[Fonction OU exclusif|OU exclusif]] (ou XOR) entre plusieurs bits du registre, cette opération étant également l'addition sur le corps fini '''F<sub>2</sub>'''. Ces dispositifs sont simples, peu coûteux et efficaces.
+
+La suite récurrente produite par un LFSR est nécessairement périodique à partir d'un certain rang. Les LFSR sont utilisés en [[cryptographie]] pour engendrer des suites de nombres [[pseudo-aléatoire]]s. La fonction de rétroaction est alors choisie de façon à obtenir une période la plus grande possible.
