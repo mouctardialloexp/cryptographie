@@ -1,0 +1,5 @@
+Une fonction booléenne est une fonction prenant en entrée une liste de bits et donnant en sortie un unique bit.
+
+Les fonctions booléennes sont très utilisées en informatique théorique, 
+notamment en théorie de la complexité et en cryptologie (par exemple dans les boîtes-S et 
+les chiffrements par flot -- fonction de filtrage ou de combinaison de registres à décalage à rétroaction linéaire).
